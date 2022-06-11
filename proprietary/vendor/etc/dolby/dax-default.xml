@@ -1350,7 +1350,7 @@
       </endpoint_type>
     </data>
   </profile>
-  <tuning name="speaker_landscape" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+  <tuning name="speaker_landscape" endpoint_type="speaker" mono_device="true" tuned_rate="48000" orientation="1" output_channels="2">
     <device_id id="default_internal_speaker" endpoint_port="internal_speaker"/>
     <device_id id="speaker_landscape" endpoint_port="internal_speaker"/>
     <data>
@@ -1450,7 +1450,7 @@
       <advanced-speaker-virtualizer-rendering-config value="35,32568,11164,5090,0,3,3,3"/>
     </data>
   </tuning>
-  <tuning name="speaker_landscape_270" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+  <tuning name="speaker_landscape_270" endpoint_type="speaker" mono_device="true" tuned_rate="48000" orientation="1" output_channels="2">
     <device_id id="default_internal_speaker_270" endpoint_port="internal_speaker"/>
     <device_id id="speaker_landscape_270" endpoint_port="internal_speaker"/>
     <data>
@@ -1748,7 +1748,7 @@
       <advanced-speaker-virtualizer-rendering-config value="35,32568,11164,5090,0,3,3,3"/>
     </data>
   </tuning>
-  <tuning name="speaker_portrait" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="0" output_channels="2">
+  <tuning name="speaker_portrait" endpoint_type="speaker" mono_device="true" tuned_rate="48000" orientation="0" output_channels="2">
     <device_id id="speaker_portrait" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>

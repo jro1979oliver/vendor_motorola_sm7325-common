@@ -2265,7 +2265,7 @@
       <data name="phys_net_dev" type="string"> rmnet_ipa0 </data>
       <data name="rtm_rmnet_data_enabled" type="int"> 1 </data>
       <data name="rtnetlink_tc_enabled" type="int"> 1 </data>
-      <data name="netdev_max_backlog" type="int"> 10000 </data>
+      <data name="netdev_max_backlog" type="int"> 100000 </data>
 
       <data name="disable_tcp_hystart_detect" type="int"> 1 </data>
       <data name="disable_hystart" type="int"> 1 </data>
@@ -3128,7 +3128,6 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
-      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>
@@ -3272,7 +3271,6 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
-      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>
@@ -3421,7 +3419,6 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 12 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
-      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>

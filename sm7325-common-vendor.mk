@@ -1085,9 +1085,9 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    PowerOffAlarm \
     uimgbaservice \
     ImsRcsService \
+    PowerOffAlarm \
     QtiTelephony \
     QtiTelephonyService \
     WfdService \
